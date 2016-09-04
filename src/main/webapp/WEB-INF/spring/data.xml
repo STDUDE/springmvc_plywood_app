@@ -34,17 +34,25 @@
           p:username="${jdbc.username}"
           p:password="${jdbc.password}" /-->
 
-    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
-        <property name="driverClassName" value="${spring.datasource.driverClassName}"/>
-        <property name="url" value="${spring.datasource.url}"/>
-        <property name="username" value="${spring.datasource.user}"/>
-        <property name="password" value="${spring.datasource.password}"/>
-        <property name="maxActive" value="${spring.datasource.maxActive}"/>
-        <property name="maxIdle" value="${spring.datasource.maxIdle}"/>
-        <property name="minIdle" value="${spring.datasource.minIdle}"/>
-        <property name="initialSize" value="${spring.datasource.initialSize}"/>
-        <property name="removeAbandoned" value="${spring.datasource.removeAbandoned}"/>
-    </bean>
+        <bean class="java.net.URI" id="dbUrl">
+            <constructor-arg value="${DATABASE_URL}"/>
+        </bean>
+        <bean id="dataSource"
+              class="org.apache.tomcat.jdbc.pool.DataSource"
+              p:url="#{ 'jdbc:postgresql://' + @dbUrl.getHost() + @dbUrl.getPath() }"
+              p:username="#{ @dbUrl.getUserInfo().split(':')[0] }"
+              p:password="#{ @dbUrl.getUserInfo().split(':')[1] }"
+              p:driverClassName="${spring.datasource.driverClassName}"
+              p:validationQuery="SELECT 1 FROM users"
+              p:maxActive="${spring.datasource.maxActive}"
+              p:minIdle="${spring.datasource.minIdle}"
+              p:maxWait="${spring.datasource.maxWait}"
+              p:initialSize="${spring.datasource.initialSize}"
+              p:maxIdle="${spring.datasource.maxIdle}"
+              p:testOnBorrow="${spring.datasource.testOnBorrow}"
+              p:removeAbandoned="${spring.datasource.removeAbandoned}"
+              p:testOnConnect="${spring.datasource.testOnConnect}"
+              p:testWhileIdle="${spring.datasource.testWhileIdle}"/>
 
     <!--Connection info string:
     "dbname=delcoaulrgb9kd host=ec2-54-243-204-74.compute-1.amazonaws.com port=5432 user=vedwpiboemvani password=nb2ETLU_1TvazRrTw5kdXCRDn7 sslmode=require"

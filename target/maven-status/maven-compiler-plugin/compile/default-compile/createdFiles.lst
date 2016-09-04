@@ -1,6 +1,7 @@
 com\springapp\mvc\dao\implementions\HmcDAOImpl.class
 com\springapp\mvc\dao\interfaces\PlywoodFiltersDAO.class
 com\springapp\mvc\service\implementions\MachineOrderServiceImpl.class
+com\springapp\mvc\dao\implementions\PriceListDAOImpl.class
 com\springapp\mvc\util\EmailUtil$1.class
 com\springapp\mvc\service\implementions\UserServiceImpl.class
 com\springapp\mvc\web\CommonController.class
@@ -25,6 +26,7 @@ com\springapp\mvc\service\interfaces\EmailService.class
 com\springapp\mvc\service\interfaces\HmcService.class
 com\springapp\mvc\dao\implementions\UserDAOImpl.class
 com\springapp\mvc\domain\User.class
+com\springapp\mvc\test\Test.class
 com\springapp\mvc\domain\hmc\SystemCNCFilter.class
 com\springapp\mvc\domain\plywood\PriceListPK.class
 com\springapp\mvc\dao\interfaces\FiltersDAO.class
@@ -49,6 +51,7 @@ com\springapp\mvc\dao\interfaces\PlywoodDAO.class
 com\springapp\mvc\util\ReadExcelUtil.class
 com\springapp\mvc\service\implementions\CustomUserDetailsService.class
 com\springapp\mvc\service\interfaces\PlywoodService.class
+com\springapp\mvc\dao\interfaces\PriceListDAO.class
 com\springapp\mvc\service\interfaces\FiltersService.class
 com\springapp\mvc\service\implementions\PlywoodFiltersServiceImpl$1.class
 com\springapp\mvc\util\UploadMultipartFileUtil.class

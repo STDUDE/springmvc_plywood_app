@@ -10,7 +10,7 @@ http://www.springframework.org/schema/security/spring-security-4.0.xsd">
         <intercept-url pattern="/*" access="permitAll"/>
     </http>
 
-    <http auto-config="true" use-expressions="true" pattern="/hmc/*">
+    <http auto-config="true" use-expressions="true" pattern="/plywood/*">
         <intercept-url pattern="/plywood/*" access="permitAll"/>
         <intercept-url pattern="/plywood/authentication" access="permitAll"/>
         <form-login

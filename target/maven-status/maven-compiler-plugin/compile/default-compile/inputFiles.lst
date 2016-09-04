@@ -4,6 +4,7 @@ E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\domain\pl
 E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\dao\interfaces\FiltersDAO.java
 E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\util\UploadMultipartFileUtil.java
 E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\web\MachineController.java
+E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\test\Test.java
 E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\domain\hmc\SystemCNCFilter.java
 E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\dao\implementions\MachineOrderDAOImpl.java
 E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\dao\implementions\UserDAOImpl.java
@@ -17,6 +18,7 @@ E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\domain\pl
 E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\web\CommonController.java
 E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\dao\implementions\PlywoodFiltersDAOImpl.java
 E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\domain\plywood\TypeFilter.java
+E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\dao\implementions\PriceListDAOImpl.java
 E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\dao\implementions\PlywoodDAOImpl.java
 E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\domain\hmc\HmcSlidersFilter.java
 E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\service\interfaces\WorkWithFilesService.java
@@ -37,6 +39,7 @@ E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\service\i
 E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\service\interfaces\UserService.java
 E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\dao\implementions\HmcDAOImpl.java
 E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\dao\interfaces\PlywoodFiltersDAO.java
+E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\dao\interfaces\PriceListDAO.java
 E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\service\implementions\HmcServiceImpl.java
 E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\util\GeneratePdfUtil.java
 E:\Projects\Project Plywood\PlywoodApp\src\main\java\com\springapp\mvc\service\implementions\WorkWithFilesServiceImpl.java
