@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7262e7a3-ab5d-49ad-bd84-a02379003159" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="PlywoodApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1365,7 +1364,7 @@
       <workItem from="1472841281979" duration="4265000" />
       <workItem from="1472885243699" duration="18704000" />
       <workItem from="1472986506025" duration="1738000" />
-      <workItem from="1472990494983" duration="16107000" />
+      <workItem from="1472990494983" duration="16139000" />
     </task>
     <task id="LOCAL-00001" summary="Final_02">
       <created>1473028109627</created>
@@ -1409,11 +1408,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473028426711</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Final_04">
+      <created>1473029215601</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1473029215601</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205481000" />
+    <option name="totallyTimeSpent" value="205513000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1426,7 +1432,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30932897" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1474,7 +1480,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Final_02" />
     <MESSAGE value="Final_03" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final_03" />
+    <MESSAGE value="Final_04" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final_04" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
