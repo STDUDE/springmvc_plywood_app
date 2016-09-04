@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7262e7a3-ab5d-49ad-bd84-a02379003159" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_12_1_GA.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PlywoodApp.iws" />
@@ -1257,7 +1256,7 @@
       <workItem from="1472841281979" duration="4265000" />
       <workItem from="1472885243699" duration="18704000" />
       <workItem from="1472986506025" duration="1738000" />
-      <workItem from="1472990494983" duration="15338000" />
+      <workItem from="1472990494983" duration="15350000" />
     </task>
     <task id="LOCAL-00001" summary="Final_02">
       <created>1473028109627</created>
@@ -1287,11 +1286,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473028405611</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Final_03">
+      <created>1473028416289</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1473028416289</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204712000" />
+    <option name="totallyTimeSpent" value="204724000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
