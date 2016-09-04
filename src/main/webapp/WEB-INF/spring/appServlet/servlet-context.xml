@@ -26,10 +26,10 @@
         <beans:property name="suffix" value=".jsp"/>
     </beans:bean>
 
+    <!-- Internationalization -->
     <beans:bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
-        <beans:property name="cacheSeconds" value="60"/>
+        <beans:property name="basename" value="classpath:messages"/>
         <beans:property name="defaultEncoding" value="UTF-8"/>
-        <beans:property name="basenames" value="file:///#{systemEnvironment['TOPJAVA_ROOT']}/conf/messages/app"/>
     </beans:bean>
 
     <beans:bean id="localeResolver" class="org.springframework.web.servlet.i18n.CookieLocaleResolver">
