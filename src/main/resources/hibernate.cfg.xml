@@ -5,11 +5,20 @@
 
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.url">jdbc:mysql://localhost:3306</property>
+        <!--property name="connection.url">jdbc:mysql://localhost:3306</property>
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="connection.username">root</property>
         <property name="connection.password">123123</property>
-        <property name="show_sql">true</property>
+        <property name="show_sql">true</property-->
+
+        <property name="hibernate.connection.url">jdbc:postgresql://ec2-54-243-204-74.compute-1.amazonaws.com:5432/delcoaulrgb9kd?user=vedwpiboemvani&amp;password=nb2ETLU_1TvazRrTw5kdXCRDn7&amp;sslmode=require</property>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.username">vedwpiboemvani</property>
+        <property name="hibernate.connection.password">nb2ETLU_1TvazRrTw5kdXCRDn7</property>
+        <property name="hibernate.archive.autodetection">class</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+        <property name="hbm2ddl.auto">update</property>
 
         <mapping class="com.springapp.mvc.domain.hmc.MachineLocationFilter"/>
         <mapping class="com.springapp.mvc.domain.hmc.Hmc"/>

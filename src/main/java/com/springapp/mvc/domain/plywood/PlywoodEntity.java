@@ -10,7 +10,7 @@ import javax.persistence.Table;
  */
 
 @Entity
-@Table(name="plywood", schema = "", catalog = "plywood")
+@Table(name="plywood", schema = "", catalog = "public")
 public class PlywoodEntity {
     @Id
     @Column(name = "id")

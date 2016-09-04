@@ -2,6 +2,7 @@ package com.springapp.mvc.service.implementions;
 
 import com.springapp.mvc.dao.interfaces.HmcDAO;
 import com.springapp.mvc.dao.interfaces.PlywoodDAO;
+import com.springapp.mvc.dao.interfaces.PriceListDAO;
 import com.springapp.mvc.domain.hmc.Hmc;
 import com.springapp.mvc.domain.plywood.PlywoodEntity;
 import com.springapp.mvc.domain.plywood.PriceListEntity;
@@ -29,6 +30,9 @@ public class WorkWithFilesServiceImpl implements WorkWithFilesService {
 
     @Autowired
     private PlywoodDAO plywoodDAO;
+
+    @Autowired
+    private PriceListDAO priceListDAO;
 
    /* @Transactional
     public ResponseEntity<byte[]> getPDFOffer(String path, String products, String company, String director, boolean showPrice) throws Exception {
@@ -96,7 +100,7 @@ public class WorkWithFilesServiceImpl implements WorkWithFilesService {
 
                 plywoodDAO.addPlywood((PlywoodEntity) plywood.get("plywood"));
                 for (PriceListEntity item : priceList)  {
-                    plywoodDAO.addPriceList(item);
+                    priceListDAO.addPriceList(item);
                 }
                 uploadFile.delete();
                 System.out.println("Successfully uploaded machine: " + plywood_file[i].getOriginalFilename());

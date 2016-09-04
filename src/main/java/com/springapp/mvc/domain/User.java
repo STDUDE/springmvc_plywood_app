@@ -7,7 +7,7 @@ import javax.persistence.Table;
 import java.io.Serializable;
 
 @Entity
-@Table(name="users", schema = "", catalog = "hmc")
+@Table(name="users", schema = "", catalog = "plywood")
 public class User implements Serializable{
     @Id
     @Column(name = "num")

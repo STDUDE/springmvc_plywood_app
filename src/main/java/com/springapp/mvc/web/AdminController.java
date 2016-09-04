@@ -136,7 +136,7 @@ public class AdminController {
     @RequestMapping(value = "/hmc/upload", method = RequestMethod.POST)
     public String adminUploadHmcFromFiles(@RequestParam("textFile") MultipartFile[] machines, HttpServletRequest request){
         if (machines != null && machines.length > 0) {
-            String path = request.getServletContext().getRealPath("") + "/resources/";
+            String path = request.getServletContext().getRealPath("") + "\\resources\\";
             //workWithFilesService.uploadMachines(path, machines);
         }
         return "redirect:/admin/hmc";
@@ -145,7 +145,7 @@ public class AdminController {
     @RequestMapping(value = "/plywood/upload", method = RequestMethod.POST)
     public String adminUploadPlywoodFromFiles(@RequestParam("textFile") MultipartFile[] plywood, HttpServletRequest request){
         if (plywood != null && plywood.length > 0) {
-            String path = request.getServletContext().getRealPath("") + "/resources/";
+            String path = request.getServletContext().getRealPath("") + "\\resources\\";
             workWithFilesService.uploadPlywood(path, plywood);
         }
         return "redirect:/admin/plywood";

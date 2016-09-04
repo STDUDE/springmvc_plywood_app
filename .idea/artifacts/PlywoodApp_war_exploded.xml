@@ -20,6 +20,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.0.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.0.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.postgresql:postgresql:9.4.1208" />
           <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.0.1" />
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
           <element id="library" level="project" name="Maven: javax.persistence:persistence-api:1.0" />
@@ -39,6 +40,8 @@
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.18" />
           <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.2.2" />
           <element id="library" level="project" name="Maven: commons-io:commons-io:1.3.2" />
+          <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.2.2" />
+          <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.3" />
           <element id="library" level="project" name="Maven: org.apache.poi:poi:3.9" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.5" />
           <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml:3.9" />
@@ -58,6 +61,7 @@
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:4.0.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:4.0.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:4.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: com.heroku.sdk:heroku-jdbc:0.1.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">

@@ -27,12 +27,34 @@
           p:location="/WEB-INF/utils.properties" />
 
     <!-- Непосредственно бин dataSource -->
-    <bean id="dataSource"
+    <!--bean id="dataSource"
           class="org.springframework.jdbc.datasource.DriverManagerDataSource"
           p:driverClassName="${jdbc.driverClassName}"
           p:url="${jdbc.databaseurl}"
           p:username="${jdbc.username}"
-          p:password="${jdbc.password}" />
+          p:password="${jdbc.password}" /-->
+
+    <bean class="java.net.URI" id="dbUrl">
+        <constructor-arg value="#{systemEnvironment['DATABASE_URL']}"/>
+    </bean>
+
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="${spring.datasource.driverClassName}"/>
+        <property name="url" value="#{ 'jdbc:postgresql://' + @dbUrl.getHost() + ':' + @dbUrl.getPort() + @dbUrl.getPath() }"/>
+        <property name="username" value="#{ @dbUrl.getUserInfo().split(':')[0] }"/>
+        <property name="password" value="#{ @dbUrl.getUserInfo().split(':')[1] }"/>
+        <property name="maxActive" value="${spring.datasource.maxActive}"/>
+        <property name="maxIdle" value="${spring.datasource.maxIdle}"/>
+        <property name="minIdle" value="${spring.datasource.minIdle}"/>
+        <property name="initialSize" value="${spring.datasource.initialSize}"/>
+        <property name="removeAbandoned" value="${spring.datasource.removeAbandoned}"/>
+    </bean>
+
+    <!--Connection info string:
+    "dbname=delcoaulrgb9kd host=ec2-54-243-204-74.compute-1.amazonaws.com port=5432 user=vedwpiboemvani password=nb2ETLU_1TvazRrTw5kdXCRDn7 sslmode=require"
+    Connection URL:
+    postgres://vedwpiboemvani:nb2ETLU_1TvazRrTw5kdXCRDn7@ec2-54-243-204-74.compute-1.amazonaws.com:5432/delcoaulrgb9kd-->
+
 
     <!-- Настройки фабрики сессий Хибернейта -->
     <bean id="sessionFactory"

@@ -13,6 +13,7 @@ import org.hibernate.criterion.Projections;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -87,11 +88,13 @@ public class PlywoodDAOImpl implements PlywoodDAO {
         return (PriceListEntity) query.uniqueResult();
     }
 
+    @Transactional
     @SuppressWarnings("unchecked")
     public void addPlywood(PlywoodEntity plywood) {
         sessionFactory.getCurrentSession().saveOrUpdate(plywood);
     }
 
+    @Transactional
     @SuppressWarnings("unchecked")
     public void addPriceList(PriceListEntity priceList) {
         sessionFactory.getCurrentSession().saveOrUpdate(priceList);

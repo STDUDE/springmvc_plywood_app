@@ -6,7 +6,7 @@ import javax.persistence.*;
  * Created by Antony on 17.08.2016.
  */
 @Entity
-@Table(name="price_list", schema = "", catalog = "plywood")
+@Table(name="price_list", schema = "", catalog = "public")
 public class PriceListEntity {
 
     @EmbeddedId
