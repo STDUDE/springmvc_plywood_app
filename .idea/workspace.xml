@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7262e7a3-ab5d-49ad-bd84-a02379003159" name="Default" comment="Final_02">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/PlywoodApp_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/PlywoodApp_war_exploded.xml" />
+    <list default="true" id="7262e7a3-ab5d-49ad-bd84-a02379003159" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_12_1_GA.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlywoodApp.iml" afterPath="$PROJECT_DIR$/PlywoodApp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="PlywoodApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1259,7 +1257,7 @@
       <workItem from="1472841281979" duration="4265000" />
       <workItem from="1472885243699" duration="18704000" />
       <workItem from="1472986506025" duration="1738000" />
-      <workItem from="1472990494983" duration="15281000" />
+      <workItem from="1472990494983" duration="15328000" />
     </task>
     <task id="LOCAL-00001" summary="Final_02">
       <created>1473028109627</created>
@@ -1275,11 +1273,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473028144177</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Final_03">
+      <created>1473028374782</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1473028374782</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204655000" />
+    <option name="totallyTimeSpent" value="204702000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1339,7 +1344,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Final_02" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final_02" />
+    <MESSAGE value="Final_03" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final_03" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
