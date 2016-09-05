@@ -11,7 +11,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-    <title>Plywood24. ${plywood.brand} ${priceListItem.priceListPK.length}X${priceListItem.priceListPK.width}X${priceListItem.priceListPK.thickness}</title>
+    <title><spring:message code="common.plywoodTitle"/></title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="../resources/css/bootstrap.min.css" type="text/css" media="screen"/>
