@@ -53,14 +53,14 @@
         <div class="container">
             <nav>
                 <ul class="inline">
-                    <%@include file="insertions/shopByDepartment.jsp" %>
+                    <%@include file="insertions/shopByType.jsp" %>
                     <li class="breadcrumb-nav-holder">
                         <ul>
                             <li class="breadcrumb-item gray">
                                 <a href="/"><spring:message code="common.home"/></a>
                             </li>
                             <li class="breadcrumb-item gray">
-                                <a onclick="goToHmc()"><spring:message code="common.hmc"/></a>
+                                <a onclick="goToPlywood()"><spring:message code="common.plywood"/></a>
                             </li>
                             <li class="breadcrumb-item gray">
                                 <a onclick="goToCart()"><spring:message code="cart.shoppingCart"/></a>
@@ -121,10 +121,10 @@
                     <table class="table table-bordered table-condensed" id="order-table">
                         <tr>
                             <td>№</td>
-                            <td><spring:message code="machine.type"/></td>
-                            <td><spring:message code="machine.model"/></td>
+                            <td><spring:message code="plywood.type"/></td>
+                            <td><spring:message code="plywood.brand"/></td>
                             <td <c:if test="${pageContext.request.userPrincipal.name == null}">style="display: none"</c:if>>
-                                <spring:message code="machine.price"/></td>
+                                <spring:message code="plywood.price"/></td>
                             <td><spring:message code="proposal.quantity"/></td>
                             <td <c:if test="${pageContext.request.userPrincipal.name == null}">style="display: none"</c:if>>
                                 <spring:message code="proposal.total"/></td>

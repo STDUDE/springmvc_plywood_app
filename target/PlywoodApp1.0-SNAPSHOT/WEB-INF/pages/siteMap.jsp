@@ -44,11 +44,11 @@
             <h1 class="h2"><spring:message code="siteMap.siteMap"/></h1>
             <hr>
             <a href="/index"><spring:message code="common.home"/></a><br>
-            <a href="http://vmccnc.com/contact"><spring:message code="common.contact"/></a><br><br>
-
-            <h2><a onclick="goToHmc()"><spring:message code="common.hmc"/></a></h2>
-            <c:forEach items="${shortMachineList}" var="machine">
-                <a href="/hmc${machine[0]}">${machine[1]} - ${machine[2]}</a><br>
+            <a href="/about"><spring:message code="common.about"/></a><br>
+            <a href="http://plywood24.com/contact"><spring:message code="common.contact"/></a><br><br>
+            <h2><a onclick="goToPlywood()"><spring:message code="common.plywood"/></a></h2>
+            <c:forEach items="${shortPlywoodList}" var="plywood">
+                <a href="/plywood${plywood[0]}_${plywood[1]}_${plywood[2]}_${plywood[3]}">Plywood ${plywood[0]} ${plywood[1]}X${plywood[2]}X${plywood[3]}</a><br>
             </c:forEach>
 
             <br><br><br>

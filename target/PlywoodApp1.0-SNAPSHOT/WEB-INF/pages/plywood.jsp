@@ -3,7 +3,7 @@
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 <head>
     <!-- Meta -->
@@ -59,7 +59,7 @@
         <div class="container">
             <nav>
                 <ul class="inline">
-                    <%@include file="common/insertions/shopByDepartment.jsp" %>
+                    <%@include file="common/insertions/shopByType.jsp" %>
 
                     <li class="breadcrumb-nav-holder">
                         <ul>
@@ -103,8 +103,8 @@
                                 <c:set var="priceMax" value="${sliders.iterator().next().priceMax}"/>
                                 <div class="price-range-holder">
                                     <input type="text" class="price-slider" id="price-slider" name="priceRange">
-                            <span class="min-max"><spring:message code="hmc.from"/> ${priceMin} <spring:message
-                                    code="hmc.to"/> ${priceMax}</span>
+                            <span class="min-max"><spring:message code="common.from"/> ${priceMin} <spring:message
+                                    code="common.to"/> ${priceMax}</span>
                                 </div>
                             </div>
                         </c:if>
@@ -149,8 +149,8 @@
                                 <c:set var="lengthMax" value="${sliders.iterator().next().lengthMax}"/>
                                 <div class="price-range-holder">
                                     <input type="text" class="price-slider" id="length-slider" name="lengthRange">
-                            <span class="min-max"><spring:message code="hmc.from"/> ${lengthMin} <spring:message
-                                    code="hmc.to"/> ${lengthMax}</span>
+                            <span class="min-max"><spring:message code="common.from"/> ${lengthMin} <spring:message
+                                    code="common.to"/> ${lengthMax}</span>
                                 </div>
                             </div>
                         </c:if>
@@ -163,8 +163,8 @@
                                 <c:set var="widthMax" value="${sliders.iterator().next().widthMax}"/>
                                 <div class="price-range-holder">
                                     <input type="text" class="price-slider" id="width-slider" name="widthRange">
-                            <span class="min-max"><spring:message code="hmc.from"/> ${widthMin} <spring:message
-                                    code="hmc.to"/> ${widthMax}</span>
+                            <span class="min-max"><spring:message code="common.from"/> ${widthMin} <spring:message
+                                    code="common.to"/> ${widthMax}</span>
                                 </div>
                             </div>
                         </c:if>
@@ -192,20 +192,20 @@
                                 <c:set var="weightMax" value="${sliders.iterator().next().weightMax}"/>
                                 <div class="price-range-holder">
                                     <input type="text" class="price-slider" id="weight-slider" name="weightRange">
-                            <span class="min-max"><spring:message code="hmc.from"/> ${weightMin} <spring:message
-                                    code="hmc.to"/> ${weightMax}</span>
+                            <span class="min-max"><spring:message code="common.from"/> ${weightMin} <spring:message
+                                    code="common.to"/> ${weightMax}</span>
                                 </div>
                             </div>
                         </c:if>
 
                         <div class="filter-button">
-                            <a id="filterSubmit" onclick="submitFilter()"><spring:message code="hmc.filter"/></a>
+                            <a id="filterSubmit" onclick="submitFilter()"><spring:message code="common.filter"/></a>
                         </div>
 
                     </div>
 
                     <div class="reset-filter">
-                        <a onclick="resetFilter()"><spring:message code="hmc.resetFilter"/></a>
+                        <a onclick="resetFilter()"><spring:message code="common.resetFilter"/></a>
                     </div>
 
                     <br><br>
@@ -247,7 +247,7 @@
                                     <c:forTokens items="${perPageNums}" delims=";" var="perPage">
                                         <option value="${perPage}"
                                                 <c:if test="${perPage == itemsPerPage}">selected</c:if>>${perPage}
-                                            <spring:message code="hmc.perPage"/></option>
+                                            <spring:message code="common.perPage"/></option>
                                     </c:forTokens>
                                 </select>
                             </div>
@@ -256,12 +256,12 @@
                                 <ul>
                                     <li class="grid-list-button-item active">
                                         <a data-toggle="tab" href="#grid-view" onclick="sessionStorage.view = 'grid'">
-                                            <i class="fa fa-th-large"></i> <spring:message code="hmc.grid"/>
+                                            <i class="fa fa-th-large"></i> <spring:message code="common.grid"/>
                                         </a>
                                     </li>
                                     <li class="grid-list-button-item">
                                         <a data-toggle="tab" href="#list-view" onclick="sessionStorage.view = 'list'">
-                                            <i class="fa fa-th-list"></i> <spring:message code="hmc.list"/>
+                                            <i class="fa fa-th-list"></i> <spring:message code="common.list"/>
                                         </a>
                                     </li>
                                 </ul>
@@ -431,7 +431,7 @@
                                         <div class="inner-xs">
                                             <div class="page-header">
                                                 <h2 class="page-title">
-                                                    <spring:message code="hmc.noMachines"/>
+                                                    <spring:message code="common.noPlywood"/>
                                                 </h2>
                                             </div>
                                         </div>
@@ -455,8 +455,8 @@
 
                                         <div class="col-xs-6">
                                             <div class="result-counter">
-                                                <spring:message code="hmc.showing"/> <span id="showFromTo"></span> <spring:message
-                                                    code="hmc.of"/> <span id="of"></span> <spring:message code="hmc.results"/>
+                                                <spring:message code="common.showing"/> <span id="showFromTo"></span> <spring:message
+                                                    code="common.of"/> <span id="of"></span> <spring:message code="common.results"/>
                                             </div>
                                         </div>
 

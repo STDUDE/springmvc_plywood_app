@@ -38,7 +38,7 @@ public class GeneratePdfUtil {
         paragraph.add(chunk);
         chunk = new Chunk("\ncontact@",font);
         paragraph.add(chunk);
-        chunk = new Chunk("vmccnc.com",greenFont);
+        chunk = new Chunk("plywood24.com",greenFont);
         paragraph.add(chunk);
         paragraph.setAlignment(Element.ALIGN_RIGHT);
         cell3.addElement(paragraph);
@@ -347,7 +347,7 @@ public class GeneratePdfUtil {
         paragraph.add(chunk);
         chunk = new Chunk("\ncontact@",fontSmall);
         paragraph.add(chunk);
-        chunk = new Chunk("vmccnc.com",fontSmallGreen);
+        chunk = new Chunk("plywood24.com",fontSmallGreen);
         paragraph.add(chunk);
         paragraph.setAlignment(Element.ALIGN_CENTER);
         return paragraph;

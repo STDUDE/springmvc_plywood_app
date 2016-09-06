@@ -42,6 +42,11 @@ public class PlywoodServiceImpl implements PlywoodService {
     }
 
     @Transactional
+    public List<String[]> listPlywoodForSiteMap(){
+        return plywoodDAO.listPlywoodForSiteMap();
+    }
+
+    @Transactional
     public PriceListEntity getPriceListItem(String productId, Integer length, Integer width, Integer thickness) {
         return plywoodDAO.getPriceListItem(productId, length, width, thickness);
     }
@@ -68,5 +73,15 @@ public class PlywoodServiceImpl implements PlywoodService {
     @Transactional
     public void editPriceList(PriceListEntity priceListItem) {
         plywoodDAO.editPriceList(priceListItem);
+    }
+
+    @Transactional
+    public List<PriceListEntity> randomPriceList() {
+        return plywoodDAO.randomPriceList();
+    }
+
+    @Transactional
+    public List<PriceListEntity> newArrivalsList() {
+        return plywoodDAO.newArrivalsList();
     }
 }

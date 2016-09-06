@@ -7,7 +7,7 @@
             <!-- ============================================================= LOGO ============================================================= -->
             <div class="logo">
                 <a href="/">
-                    <img alt="hmccnc.com" src="../../resources/images/vmc_and_hmc.svg" width="233" height="54"/>
+                    <img alt="plywood24.com" src="../../resources/images/plywood24.svg" width="300" height="54"/>
                 </a>
             </div>
             <!-- /.logo -->
@@ -22,7 +22,7 @@
                 </div>
                 <br>
                 <div class="contact inline">
-                    <i class="fa fa-envelope"></i> contact@<span class="le-color">hmccnc.com</span>
+                    <i class="fa fa-envelope"></i> contact@<span class="le-color">plywood24.com</span>
                 </div>
             </div>
             <!-- /.contact-row -->

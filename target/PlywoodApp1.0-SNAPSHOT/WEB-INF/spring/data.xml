@@ -34,7 +34,7 @@
           p:username="${jdbc.username}"
           p:password="${jdbc.password}" /-->
 
-        <bean class="java.net.URI" id="dbUrl">
+        <!--bean class="java.net.URI" id="dbUrl">
             <constructor-arg value="${DATABASE_URL}"/>
         </bean>
         <bean id="dataSource"
@@ -52,8 +52,23 @@
               p:testOnBorrow="${spring.datasource.testOnBorrow}"
               p:removeAbandoned="${spring.datasource.removeAbandoned}"
               p:testOnConnect="${spring.datasource.testOnConnect}"
+              p:testWhileIdle="${spring.datasource.testWhileIdle}"/-->
+    <bean id="dataSource"
+              class="org.apache.tomcat.jdbc.pool.DataSource"
+              p:url="${spring.datasource.url}"
+              p:username="${spring.datasource.user}"
+              p:password="${spring.datasource.password}"
+              p:driverClassName="${spring.datasource.driverClassName}"
+              p:validationQuery="SELECT 1 FROM users"
+              p:maxActive="${spring.datasource.maxActive}"
+              p:minIdle="${spring.datasource.minIdle}"
+              p:maxWait="${spring.datasource.maxWait}"
+              p:initialSize="${spring.datasource.initialSize}"
+              p:maxIdle="${spring.datasource.maxIdle}"
+              p:testOnBorrow="${spring.datasource.testOnBorrow}"
+              p:removeAbandoned="${spring.datasource.removeAbandoned}"
+              p:testOnConnect="${spring.datasource.testOnConnect}"
               p:testWhileIdle="${spring.datasource.testWhileIdle}"/>
-
     <!--Connection info string:
     "dbname=delcoaulrgb9kd host=ec2-54-243-204-74.compute-1.amazonaws.com port=5432 user=vedwpiboemvani password=nb2ETLU_1TvazRrTw5kdXCRDn7 sslmode=require"
     Connection URL:

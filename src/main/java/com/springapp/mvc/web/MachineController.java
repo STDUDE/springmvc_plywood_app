@@ -37,12 +37,6 @@ public class MachineController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
-    public ModelAndView home(Map<String,Object> map) {
-        putMachinesForBlocks(map);
-        return new ModelAndView("index", map);
-    }
-
     @RequestMapping(value = "/hmc/authentication", method = RequestMethod.GET)
     public void authentication(@RequestParam(value = "error", required = false) String error,
                                @RequestParam(value = "logout", required = false) String logout,
@@ -80,11 +74,6 @@ public class MachineController {
         map.put("machineLocationList", filtersService.listMachineLocationFilter());
         map.put("cncList", filtersService.listSystemCNCFilter());
         map.put("slidersList", filtersService.listSlidersFilter());
-    }
-
-    private void putMachinesForBlocks(Map<String, Object> map) {
-        map.put("randomMachineList", hmcService.randomListMachine());
-        map.put("newArrivalsListnewArrivalsList", hmcService.newArrivalsList());
     }
 
     @RequestMapping(value = "/hmc", method = RequestMethod.GET)

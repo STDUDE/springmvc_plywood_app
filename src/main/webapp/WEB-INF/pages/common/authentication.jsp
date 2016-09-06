@@ -41,7 +41,7 @@
     <div class="container">
         <nav>
             <ul class="inline">
-                <%@include file="insertions/shopByDepartment.jsp" %>
+                <%@include file="insertions/shopByType.jsp" %>
 
                 <li class="breadcrumb-nav-holder">
                     <ul>

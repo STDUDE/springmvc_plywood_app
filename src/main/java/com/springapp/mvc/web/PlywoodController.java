@@ -114,7 +114,22 @@ public class PlywoodController {
         putFilters(map);
     }
 
-    @RequestMapping(value = "/plywood/{productId}/{length}/{width}/{thickness}", method = RequestMethod.GET)
+    @RequestMapping(value = "/plywood_{productId}_{length}_{width}_{thickness}", method = RequestMethod.GET)
+    public ModelAndView plywoodItem2(@PathVariable("productId") String productId,
+                                    @PathVariable("length") Integer length,
+                                    @PathVariable("width") Integer width,
+                                    @PathVariable("thickness") Integer thickness,
+                                    Map<String, Object> map) {
+
+        PriceListEntity priceListItem = plywoodService.getPriceListItem(productId, length, width, thickness);
+        if (priceListItem == null) {
+            return new ModelAndView("error404");
+        }
+        map.put("priceListItem", priceListItem);
+        return new ModelAndView("common/plywoodItem", map);
+    }
+
+    @RequestMapping(value = "/plywood/{productId:[0-9]+}/{length:[0-9]+}/{width:[0-9]+}/{thickness:[0-9]+}", method = RequestMethod.GET)
     public ModelAndView plywoodItem(@PathVariable("productId") String productId,
                                     @PathVariable("length") Integer length,
                                     @PathVariable("width") Integer width,
@@ -126,6 +141,6 @@ public class PlywoodController {
             return new ModelAndView("error404");
         }
         map.put("priceListItem", priceListItem);
-        return new ModelAndView("plywoodItem", map);
+        return new ModelAndView("common/plywoodItem", map);
     }
 }

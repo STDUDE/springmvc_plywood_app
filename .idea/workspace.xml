@@ -2,14 +2,598 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7262e7a3-ab5d-49ad-bd84-a02379003159" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/insertions/shopByType.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_5_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/implementions/PriceListDAOImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/interfaces/PriceListDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/insertions/shopByDepartment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/com/springapp/mvc/dao/implementions/PriceListDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/com/springapp/mvc/dao/interfaces/PriceListDAO.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/lib/standard-1.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/pages/plywoodItem.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/resources/images/vmc_and_hmc.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/dao/implementions/PriceListDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/dao/interfaces/PriceListDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/webapp-runner.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/maven/com.springapp/PlywoodApp/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/maven/com.springapp/PlywoodApp/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/war-tracker" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/dao/implementions/FiltersDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/dao/implementions/HmcDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/dao/implementions/MachineOrderDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/dao/implementions/PlywoodDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/dao/implementions/PlywoodFiltersDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/dao/implementions/PriceListDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/dao/implementions/UserDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/dao/interfaces/FiltersDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/dao/interfaces/HmcDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/dao/interfaces/MachineOrderDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/dao/interfaces/PlywoodDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/dao/interfaces/PlywoodFiltersDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/dao/interfaces/PriceListDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/dao/interfaces/UserDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/domain/MachineOrder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/domain/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/domain/hmc/Hmc.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/domain/hmc/HmcBrandFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/domain/hmc/HmcSlidersFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/domain/hmc/MachineLocationFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/domain/hmc/SystemCNCFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/domain/plywood/BrandFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/domain/plywood/PlywoodEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/domain/plywood/PriceListEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/domain/plywood/PriceListPK.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/domain/plywood/SlidersFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/domain/plywood/ThicknessFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/domain/plywood/TypeFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/service/implementions/CustomUserDetailsService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/service/implementions/EmailServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/service/implementions/FiltersServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/service/implementions/HmcServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/service/implementions/MachineOrderServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/service/implementions/PlywoodFiltersServiceImpl$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/service/implementions/PlywoodFiltersServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/service/implementions/PlywoodServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/service/implementions/UserServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/service/implementions/WorkWithFilesServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/service/interfaces/EmailService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/service/interfaces/FiltersService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/service/interfaces/HmcService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/service/interfaces/MachineOrderService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/service/interfaces/PlywoodFiltersService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/service/interfaces/PlywoodService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/service/interfaces/UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/service/interfaces/WorkWithFilesService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/test/Test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/util/EmailUtil$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/util/EmailUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/util/GeneratePdfUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/util/ImageUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/util/ReadExcelUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/util/UploadMultipartFileUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/web/AdminController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/web/CommonController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/web/MachineController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/com/springapp/mvc/web/PlywoodController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/hibernate.cfg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/messages.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/emailTemplates/machine-order-admin.vm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/emailTemplates/machine-order-customer.vm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/activation-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/antlr-2.7.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/asm-1.5.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/asm-attrs-1.5.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/cglib-2.1_3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/commons-codec-1.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/commons-collections-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/commons-dbcp-1.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/commons-fileupload-1.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/commons-io-1.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/commons-lang-2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/commons-pool-1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/ehcache-1.2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/ejb3-persistence-1.0.1.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/heroku-jdbc-0.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/hibernate-3.2.6.ga.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/hibernate-annotations-3.3.1.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/hibernate-commons-annotations-3.3.0.ga.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/hibernate-core-3.3.2.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/itextpdf-5.5.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/javax.servlet-api-3.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/jta-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/mail-1.4.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/mysql-connector-java-5.1.18.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/persistence-api-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/poi-3.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/poi-ooxml-3.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/poi-ooxml-schemas-3.10-FINAL.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/postgresql-9.4.1208.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/slf4j-api-1.5.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/spring-context-support-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/spring-security-acl-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/spring-security-config-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/spring-security-core-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/spring-security-taglibs-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/spring-security-web-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/standard-1.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/stax-api-1.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/tomcat-jdbc-8.5.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/tomcat-juli-8.5.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/velocity-1.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/xml-apis-1.0.b2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/xmlbeans-2.6.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/admin/adminEntry.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/admin/footer.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/admin/gallery.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/admin/header.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/admin/hmc.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/admin/lathe.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/admin/orders.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/admin/plywood.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/admin/users.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/common/authentication.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/common/cart.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/common/checkout.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/common/compare.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/common/insertions/footer.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/common/insertions/header.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/common/insertions/machineFromProposal.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/common/insertions/navigation.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/common/insertions/shopByDepartment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/common/machine.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/common/proposal.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/common/proposalSingle.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/common/trackYourOrder.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/common/wishList.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/error403.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/error404.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/error500.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/hmc.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/lathe.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/plywood.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/plywoodItem.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/pages/siteMap.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/spring/appServlet/controllers.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/spring/appServlet/servlet-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/spring/data.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/spring/root-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/spring/security.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/utils.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/content-images/img-01-orig.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/content-images/img-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/content-images/img-02-orig.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/content-images/img-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/css/blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/css/datePicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/css/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/css/fancybox-1.3.1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/css/gray.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/css/green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/css/login-blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/css/login-gray.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/css/login-green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/css/login-red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/css/red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/css/visualize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/css/wysiwyg.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/bg-input-error.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/bg-input-submit.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/bg-input.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/bg-logo-login.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/bg-submit.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/bl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/blue/bg-bookmark.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/blue/bg-button.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/blue/bg-content-login.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/blue/bg-gradient-login.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/blue/bg-header-login.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/blue/bg-header-repeat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/blue/bg-header.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/blue/bg-headlines.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/blue/bg-input-login.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/br.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/choose-file.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/closelabel.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/dragHandle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/fancybox/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/fancybox/fancy_close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/fancybox/fancy_loading.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/fancybox/fancy_nav_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/fancybox/fancy_nav_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/fancybox/fancy_shadow_e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/fancybox/fancy_shadow_n.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/fancybox/fancy_shadow_ne.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/fancybox/fancy_shadow_nw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/fancybox/fancy_shadow_s.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/fancybox/fancy_shadow_se.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/fancybox/fancy_shadow_sw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/fancybox/fancy_shadow_w.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/fancybox/fancy_title_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/fancybox/fancy_title_main.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/fancybox/fancy_title_over.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/fancybox/fancy_title_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/fancybox/fancybox-x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/fancybox/fancybox-y.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/fancybox/fancybox.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/gray/bg-bookmark.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/gray/bg-button.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/gray/bg-content-login.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/gray/bg-gradient-login.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/gray/bg-header-login.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/gray/bg-header-repeat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/gray/bg-header.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/gray/bg-headlines.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/gray/bg-input-login.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/green/bg-bookmark.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/green/bg-button.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/green/bg-content-login.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/green/bg-gradient-login.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/green/bg-header-login.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/green/bg-header-repeat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/green/bg-header.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/green/bg-headlines.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/green/bg-input-login.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/ico-warning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/ico/bg-first.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/ico/bg-last.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/ico/bg-next.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/ico/bg-prev.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/ico/breadcrumb_arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/ico/correct.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/ico/datepicker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/ico/delete.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/ico/edit.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/ico/error.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/ico/filter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/ico/help.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/ico/jquery.wysiwyg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/ico/list-dash.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/ico/list-disc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/ico/list-square.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/ico/main-menu_active.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/ico/warning.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/img-shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/red/bg-bookmark.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/red/bg-button.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/red/bg-content-login.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/red/bg-gradient-login.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/red/bg-header-login.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/red/bg-header-repeat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/red/bg-header.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/red/bg-headlines.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/red/bg-input-login.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/images/tl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/js/date.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/js/excanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/js/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/js/jquery-1.4.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/js/jquery.bgiframe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/js/jquery.datePicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/js/jquery.dimensions.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/js/jquery.filestyle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/js/jquery.filestyle.mini.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/js/jquery.ui.tabs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/js/jquery.visualize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/js/jquery.wysiwyg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/js/tablednd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/admin/js/ui.core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/css/animate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/css/blog-single.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/css/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/css/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/css/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/css/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/css/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/css/green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/css/images/bg_direction_nav.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/css/owl.carousel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/css/owl.transitions.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/css/prettyPhoto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/example.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/AjaxLoader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/ajax.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/default-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/grabbing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/icon-cart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/logotype.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/owl-carousel/AjaxLoader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/owl-carousel/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/owl-carousel/grabbing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/dark_rounded/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/dark_rounded/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/dark_rounded/contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/dark_rounded/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/dark_rounded/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/dark_rounded/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/dark_square/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/dark_square/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/dark_square/contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/dark_square/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/dark_square/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/dark_square/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/default/default_thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/default/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/default/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/default/sprite_next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/default/sprite_prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/default/sprite_x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/default/sprite_y.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/facebook/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/facebook/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/facebook/contentPatternBottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/facebook/contentPatternLeft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/facebook/contentPatternRight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/facebook/contentPatternTop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/facebook/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/facebook/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/facebook/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/light_rounded/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/light_rounded/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/light_rounded/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/light_rounded/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/light_rounded/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/light_square/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/light_square/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/light_square/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/light_square/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/prettyPhoto/light_square/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/products/CTX_310_V1_ecoline_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/products/CTX_310_V1_ecoline_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/products/CTX_310_V1_ecoline_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/products/CTX_650_V3_ecoline_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/products/CTX_650_V3_ecoline_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/products/CTX_650_V3_ecoline_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/products/DMC_55_H_duoBLOCK_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/products/DMC_55_H_duoBLOCK_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/products/DMC_55_H_duoBLOCK_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/products/DMC_60_H_linear_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/products/DMC_60_H_linear_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/products/DMC_60_H_linear_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/products/DMC_80_H_duoBLOCK_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/products/DMC_80_H_duoBLOCK_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/products/NHX4000_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/products/NHX4000_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/products/NHX4000_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/products/NHX5000_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/products/NHX5000_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/products/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/images/vmc_and_hmc.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/js/bootstrap-hover-dropdown.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/js/bootstrap-slider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/js/comparison,wishlist,cart,common.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/js/css_browser_selector.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/js/echo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/js/filters.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/js/gmap3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/js/html5shiv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/js/jquery-1.10.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/js/jquery-1.10.2.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/js/jquery-migrate-1.2.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/js/jquery.customSelect.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/js/jquery.easing-1.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/js/jquery.prettyPhoto.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/js/jquery.raty.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/js/jquery.validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/js/owl.carousel.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/js/pagination.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/js/respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/js/scripts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/js/wow.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/blue.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/.csscomb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/.csslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/badges.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/close.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/code.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/media.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/media.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/mixins.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/modals.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/navs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/pager.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/print.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/tables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/theme.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/type.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/variables.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/bootstrap/wells.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/breadcrumb.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/browsers.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/color.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/controls.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/dark-green.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/font-awesome/bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/font-awesome/core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/font-awesome/extras.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/font-awesome/fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/font-awesome/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/font-awesome/icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/font-awesome/larger.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/font-awesome/list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/font-awesome/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/font-awesome/path.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/font-awesome/rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/font-awesome/spinning.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/font-awesome/stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/font-awesome/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/footer.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/general.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/green.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/header.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/helper.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/main.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/megamenu.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/navy.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/orange.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/page-404.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/page-about.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/page-authentication.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/page-blog.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/page-cart.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/page-checkout.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/page-compare.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/page-contact.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/page-faq.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/page-home.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/page-single-product.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/page-track-your-order.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/page-wishlist.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/product-item.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/red.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/responsive.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/sections.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/sidebar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/sidemenu.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/top-navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/resources/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/sitemap.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/WEB_002dINF/pages/error500_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/WEB_002dINF/pages/error500_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/resources/js/comparison_002cwishlist_002ccart_002ccommon_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/resources/js/comparison_002cwishlist_002ccart_002ccommon_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/resources/js/filters_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/resources/js/filters_jsp.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/com/springapp/mvc/dao/implementions/PlywoodDAOImpl.class" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/com/springapp/mvc/dao/implementions/PlywoodDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/com/springapp/mvc/dao/interfaces/PlywoodDAO.class" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/com/springapp/mvc/dao/interfaces/PlywoodDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/com/springapp/mvc/service/implementions/EmailServiceImpl.class" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/com/springapp/mvc/service/implementions/EmailServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/com/springapp/mvc/service/implementions/PlywoodServiceImpl.class" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/com/springapp/mvc/service/implementions/PlywoodServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/com/springapp/mvc/service/implementions/WorkWithFilesServiceImpl.class" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/com/springapp/mvc/service/implementions/WorkWithFilesServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/com/springapp/mvc/service/interfaces/PlywoodService.class" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/com/springapp/mvc/service/interfaces/PlywoodService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/com/springapp/mvc/util/GeneratePdfUtil.class" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/com/springapp/mvc/util/GeneratePdfUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/com/springapp/mvc/web/CommonController.class" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/com/springapp/mvc/web/CommonController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/com/springapp/mvc/web/MachineController.class" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/com/springapp/mvc/web/MachineController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/com/springapp/mvc/web/PlywoodController.class" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/com/springapp/mvc/web/PlywoodController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/dao/implementions/PlywoodDAOImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/dao/implementions/PlywoodDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/dao/interfaces/PlywoodDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/dao/interfaces/PlywoodDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/service/implementions/EmailServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/service/implementions/EmailServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/service/implementions/PlywoodServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/service/implementions/PlywoodServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/service/implementions/WorkWithFilesServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/service/implementions/WorkWithFilesServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/service/interfaces/PlywoodService.class" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/service/interfaces/PlywoodService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/util/GeneratePdfUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/util/GeneratePdfUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/web/CommonController.class" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/web/CommonController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/web/MachineController.class" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/web/MachineController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/web/PlywoodController.class" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/web/PlywoodController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/PlywoodApp_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/PlywoodApp_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlywoodApp.iml" afterPath="$PROJECT_DIR$/PlywoodApp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hr.bat" afterPath="$PROJECT_DIR$/hr.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/implementions/PlywoodDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/implementions/PlywoodDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/interfaces/PlywoodDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/interfaces/PlywoodDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/EmailServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/EmailServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/PlywoodServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/PlywoodServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/WorkWithFilesServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/WorkWithFilesServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/interfaces/PlywoodService.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/interfaces/PlywoodService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/util/GeneratePdfUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/util/GeneratePdfUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/web/CommonController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/web/CommonController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/web/MachineController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/web/MachineController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/web/PlywoodController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/web/PlywoodController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/emailTemplates/machine-order-admin.vm" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/emailTemplates/machine-order-admin.vm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/emailTemplates/machine-order-customer.vm" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/emailTemplates/machine-order-customer.vm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/authentication.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/authentication.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/cart.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/cart.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/checkout.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/checkout.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/compare.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/compare.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/insertions/footer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/insertions/footer.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/insertions/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/insertions/header.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/machine.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/machine.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/proposal.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/proposal.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/proposalSingle.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/proposalSingle.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/trackYourOrder.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/trackYourOrder.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/wishList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/wishList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/hmc.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/hmc.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/lathe.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/lathe.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/plywood.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/plywood.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/plywoodItem.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/plywoodItem.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/siteMap.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/siteMap.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/data.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/data.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/robots.txt" afterPath="$PROJECT_DIR$/src/main/webapp/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/sitemap.xml" afterPath="$PROJECT_DIR$/src/main/webapp/sitemap.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/messages.properties" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/classes/messages.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/emailTemplates/machine-order-admin.vm" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/emailTemplates/machine-order-admin.vm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/emailTemplates/machine-order-customer.vm" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/emailTemplates/machine-order-customer.vm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/pages/common/insertions/footer.jsp" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/pages/common/insertions/footer.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/pages/common/insertions/header.jsp" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/pages/common/insertions/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/pages/common/insertions/shopByDepartment.jsp" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/pages/common/insertions/shopByDepartment.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/pages/common/machine.jsp" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/pages/common/machine.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/pages/plywoodItem.jsp" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/pages/plywoodItem.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/spring/security.xml" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/spring/security.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/pages/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/pages/plywood.jsp" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/pages/plywood.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/pages/siteMap.jsp" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/pages/siteMap.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/spring/data.xml" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/spring/data.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/robots.txt" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/sitemap.xml" afterPath="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/sitemap.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/messages.properties" afterPath="$PROJECT_DIR$/target/classes/messages.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/plywoodItem.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/plywoodItem.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/vmc_and_hmc.svg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/plywood24.svg" />
     </list>
     <ignored path="PlywoodApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,34 +653,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="plywoodItem.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/plywoodItem.jsp">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3183">
-              <caret line="237" column="0" selection-start-line="237" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="machine.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/machine.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-935">
-              <caret line="5" column="102" selection-start-line="5" selection-start-column="102" selection-end-line="5" selection-end-column="102" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plywood.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/plywood.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="5" column="102" selection-start-line="5" selection-start-column="102" selection-end-line="5" selection-end-column="102" />
+            <state relative-caret-position="-306">
+              <caret line="246" column="36" selection-start-line="246" selection-start-column="36" selection-end-line="246" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -125,41 +686,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/wishList.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/plywood.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/util/ReadExcelUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/images/vmc_and_hmc.svg" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/util/GeneratePdfUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/interfaces/FiltersDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/domain/plywood/SlidersFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/interfaces/FiltersService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/FiltersServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/interfaces/PlywoodFiltersDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/domain/plywood/ThicknessFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/domain/plywood/TypeFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/domain/plywood/BrandFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/PlywoodFiltersServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/implementions/PlywoodFiltersDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/error404.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/insertions/navigation.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/comparison,wishlist,cart,common.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/interfaces/PlywoodFiltersService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/interfaces/PlywoodService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/filters.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/interfaces/PlywoodDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/web/PlywoodController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/domain/plywood/PriceListPK.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/PlywoodServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/authentication.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/web/MachineController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/implementions/FiltersDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/interfaces/PriceListDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/WorkWithFilesServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/implementions/PriceListDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/implementions/PlywoodDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/web/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/test/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/domain/plywood/PlywoodEntity.java" />
@@ -167,15 +698,45 @@
         <option value="$PROJECT_DIR$/system.properties" />
         <option value="$PROJECT_DIR$/settings.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/utils.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/data.xml" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/hr.bat" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/security.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/hr.bat" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/data.xml" />
+        <option value="$PROJECT_DIR$/target/PlywoodApp1.0-SNAPSHOT/WEB-INF/pages/plywoodItem.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/plywoodItem.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/plywoodItem.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/machine.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/web/PlywoodController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/util/GeneratePdfUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/EmailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/insertions/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/emailTemplates/machine-order-admin.vm" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/emailTemplates/machine-order-customer.vm" />
+        <option value="$PROJECT_DIR$/src/main/webapp/robots.txt" />
+        <option value="$PROJECT_DIR$/src/main/webapp/sitemap.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/insertions/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/WorkWithFilesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/web/MachineController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/interfaces/PlywoodDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/PlywoodServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/interfaces/PlywoodService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/web/CommonController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/siteMap.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/insertions/shopByDepartment.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/implementions/PlywoodDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/proposal.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/wishList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/cart.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/checkout.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/compare.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/proposalSingle.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/plywood.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/images/plywood24.svg" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
       </list>
     </option>
   </component>
@@ -537,6 +1098,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="insertions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlywoodApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlywoodApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -597,6 +1196,206 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlywoodApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlywoodApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interfaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlywoodApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlywoodApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="implementions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlywoodApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlywoodApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlywoodApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlywoodApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plywood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlywoodApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlywoodApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interfaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlywoodApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlywoodApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="implementions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -612,6 +1411,11 @@
     <property name="settings.editor.selected.configurable" value="RemoteServers" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="D:/Programs/Git/bin/git.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projects\Project Plywood\PlywoodApp\src\main\webapp\WEB-INF\pages\common" />
+    </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat Local">
     <configuration default="false" name="Unnamed" type="AntRunConfigurationType" factoryName="Ant build" temporary="true" debug-port="25000" jdk-name="1.8" max-memory="256" logging-level="0">
@@ -1108,6 +1912,11 @@
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
+        <EnvironmentVariables>
+          <option name="NAME" value="DATABASE_URL" />
+          <option name="VALUE" value="postgres://vedwpiboemvani:nb2ETLU_1TvazRrTw5kdXCRDn7@ec2-54-243-204-74.compute-1.amazonaws.com:5432/delcoaulrgb9kd" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
@@ -1116,8 +1925,8 @@
       </method>
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat Local" />
-      <item index="1" class="java.lang.String" itemvalue="Ant build.Unnamed" />
+      <item index="0" class="java.lang.String" itemvalue="Ant build.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat Local" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -1157,7 +1966,7 @@
       <workItem from="1472885243699" duration="18704000" />
       <workItem from="1472986506025" duration="1738000" />
       <workItem from="1472990494983" duration="16342000" />
-      <workItem from="1473071192790" duration="1986000" />
+      <workItem from="1473071192790" duration="21872000" />
     </task>
     <task id="LOCAL-00001" summary="Final_02">
       <created>1473028109627</created>
@@ -1222,11 +2031,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473073132046</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Final_06">
+      <created>1473073655107</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1473073655107</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207702000" />
+    <option name="totallyTimeSpent" value="227588000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1239,71 +2055,39 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54664487" sideWeight="0.5030257" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.90507364" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1452345" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16490166" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5057283" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30932897" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4304419" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54664487" sideWeight="0.5030257" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.90507364" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1452345" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5695581" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32242227" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28517398" sideWeight="0.4942717" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22163388" sideWeight="0.4942717" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16490166" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39770868" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24054463" sideWeight="0.5057283" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.497545" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39116204" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54664487" sideWeight="0.5030257" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.90507364" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1452345" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16490166" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.497545" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30932897" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4304419" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5695581" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32242227" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2859304" sideWeight="0.4942717" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39116204" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24054463" sideWeight="0.5057283" order="3" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1321,28 +2105,36 @@
     <MESSAGE value="Final_03" />
     <MESSAGE value="Final_04" />
     <MESSAGE value="Final_05" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final_05" />
+    <MESSAGE value="Final_06" />
+    <MESSAGE value="Final_07" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final_07" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/PlywoodServiceImpl.java</url>
-          <line>46</line>
+          <line>51</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/WorkWithFilesServiceImpl.java</url>
-          <line>102</line>
+          <line>96</line>
           <properties />
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/web/CommonController.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="32" />
+      <option name="time" value="33" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -1357,10 +2149,256 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/PlywoodServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/lathe.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5593">
+          <caret line="353" column="54" selection-start-line="353" selection-start-column="52" selection-end-line="353" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/error403.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/error404.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/error500.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/green.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4233">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/web/PlywoodController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="124" column="36" selection-start-line="124" selection-start-column="36" selection-end-line="124" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/util/GeneratePdfUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <caret line="349" column="36" selection-start-line="349" selection-start-column="36" selection-end-line="349" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/comparison,wishlist,cart,common.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="340" column="17" selection-start-line="340" selection-start-column="17" selection-end-line="340" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/EmailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/emailTemplates/machine-order-admin.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="55" column="60" selection-start-line="55" selection-start-column="60" selection-end-line="55" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/emailTemplates/machine-order-customer.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="50" column="60" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#a#1;n#h3#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/less/sidebar.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/implementions/PlywoodFiltersDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/interfaces/PlywoodFiltersDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/WorkWithFilesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/web/MachineController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/interfaces/PlywoodService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/interfaces/HmcService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/implementions/HmcDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/HmcServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1272">
+          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/interfaces/PlywoodDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/PlywoodServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+          <folding>
+            <element signature="e#1905#1906#0" expanded="true" />
+            <element signature="e#1962#1963#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/interfaces/PlywoodService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/web/CommonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="55" column="64" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/siteMap.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/domain/plywood/PriceListEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/implementions/PlywoodDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1109">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/proposal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="122" column="38" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1368,26 +2406,60 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/authentication.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="76" column="62" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/util/ReadExcelUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/cart.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        <state relative-caret-position="148">
+          <caret line="71" column="23" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/sitemap.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/checkout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="64" column="95" selection-start-line="64" selection-start-column="95" selection-end-line="64" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/compare.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1512">
+          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/machine.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/plywoodItem.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5353">
+          <caret line="5" column="102" selection-start-line="5" selection-start-column="102" selection-end-line="5" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/proposalSingle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="59" column="84" selection-start-line="59" selection-start-column="84" selection-end-line="59" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/trackYourOrder.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1395,346 +2467,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/robots.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/wishList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/FiltersServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/interfaces/FiltersDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/implementions/FiltersDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="22" column="82" selection-start-line="22" selection-start-column="82" selection-end-line="22" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/hmc.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="114" column="68" selection-start-line="114" selection-start-column="68" selection-end-line="114" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/web/CommonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/implementions/UserDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/PlywoodFiltersServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/interfaces/HmcDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/3.3.2.GA/hibernate-core-3.3.2.GA.jar!/org/hibernate/impl/SessionFactoryImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="494" column="19" selection-start-line="494" selection-start-column="19" selection-end-line="494" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.0.0.RELEASE/spring-tx-4.0.0.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="105" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.0.0.RELEASE/spring-tx-4.0.0.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.0.0.RELEASE/spring-aop-4.0.0.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/controllers.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/3.3.2.GA/hibernate-core-3.3.2.GA.jar!/org/hibernate/impl/SessionImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="446" column="16" selection-start-line="446" selection-start-column="16" selection-end-line="446" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/interfaces/PlywoodDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/implementions/PriceListDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/implementions/PlywoodDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="96" column="18" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.0.0.RELEASE/spring-aop-4.0.0.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/interfaces/PriceListDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/interfaces/WorkWithFilesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="46">
+          <caret line="59" column="68" selection-start-line="59" selection-start-column="68" selection-end-line="59" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/web/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="148" column="30" selection-start-line="148" selection-start-column="30" selection-end-line="148" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/domain/plywood/PriceListEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/domain/plywood/PlywoodEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/implementions/WorkWithFilesServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/utils.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="85" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/insertions/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hr.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="73" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/data.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="68" selection-start-line="54" selection-start-column="68" selection-end-line="54" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="181" column="20" selection-start-line="181" selection-start-column="20" selection-end-line="181" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/insertions/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="24" column="85" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="85" />
+          <caret line="8" column="98" selection-start-line="8" selection-start-column="98" selection-end-line="8" selection-end-column="98" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/insertions/machineFromProposal.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/web/MachineController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/insertions/shopByType.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+        <state relative-caret-position="34">
+          <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/web/PlywoodController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/insertions/navigation.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/plywood.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="102" selection-start-line="5" selection-start-column="102" selection-end-line="5" selection-end-column="102" />
+        <state relative-caret-position="-686">
+          <caret line="250" column="50" selection-start-line="250" selection-start-column="50" selection-end-line="250" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/plywoodItem.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3183">
-          <caret line="237" column="0" selection-start-line="237" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="130">
+          <caret line="958" column="12" selection-start-line="958" selection-start-column="12" selection-end-line="958" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/machine.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/less/header.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-935">
-          <caret line="5" column="102" selection-start-line="5" selection-start-column="102" selection-end-line="5" selection-end-column="102" />
+        <state relative-caret-position="113">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/less/responsive.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/images/plywood24.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/insertions/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="246" column="36" selection-start-line="246" selection-start-column="36" selection-end-line="246" selection-end-column="36" />
           <folding />
         </state>
       </provider>

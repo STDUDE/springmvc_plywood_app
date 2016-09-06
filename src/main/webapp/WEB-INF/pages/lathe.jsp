@@ -59,7 +59,7 @@
     <div class="container">
         <nav>
             <ul class="inline">
-                <%@include file="common/insertions/shopByDepartment.jsp" %>
+                <%@include file="common/insertions/shopByType.jsp" %>
 
                 <li class="breadcrumb-nav-holder">
                     <ul>

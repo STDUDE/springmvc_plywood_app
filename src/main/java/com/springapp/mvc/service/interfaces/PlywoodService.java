@@ -15,7 +15,11 @@ public interface PlywoodService {
                                               String priceRange, String lengthRange,
                                               String widthRange, String thickness,
                                               String weightRange);
+    public List<String[]> listPlywoodForSiteMap();
     public PriceListEntity getPriceListItem(String productId, Integer length, Integer width, Integer thickness);
     public void editPlywood(PlywoodEntity plywood);
     public void editPriceList(PriceListEntity priceList);
+
+    public List<PriceListEntity> randomPriceList();
+    public List<PriceListEntity> newArrivalsList();
 }

@@ -24,7 +24,7 @@ public interface PlywoodDAO {
     public void editPlywood(PlywoodEntity plywood);
     public void editPriceList(PriceListEntity priceList);
 
-    public List<PlywoodEntity> randomListPlywood();
-    public List<PlywoodEntity> newArrivalsList();
+    public List<PriceListEntity> randomPriceList();
+    public List<PriceListEntity> newArrivalsList();
 
 }

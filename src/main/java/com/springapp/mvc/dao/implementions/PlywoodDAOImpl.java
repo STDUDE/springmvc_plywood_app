@@ -66,9 +66,11 @@ public class PlywoodDAOImpl implements PlywoodDAO {
 
     @SuppressWarnings("unchecked")
     public List<String[]> listPlywoodForSiteMap() {
-        return null;
+        Query query = sessionFactory.getCurrentSession().createQuery("select P.priceListPK.plywood.productId, P.priceListPK.length, P.priceListPK.width, P.priceListPK.thickness from PriceListEntity P");
+        return (List<String[]>) query.list();
     }
 
+    @SuppressWarnings("unchecked")
     public PriceListEntity getPriceListItem(String productId, Integer length, Integer width, Integer thickness) {
         PriceListPK pk = new PriceListPK(getPlywood(productId), length, width, thickness);
         Criteria criteria = sessionFactory.getCurrentSession().createCriteria(PriceListEntity.class);
@@ -111,14 +113,14 @@ public class PlywoodDAOImpl implements PlywoodDAO {
     }
 
     @SuppressWarnings("unchecked")
-    public List<PlywoodEntity> randomListPlywood() {
-        return sessionFactory.getCurrentSession().createQuery("from PlywoodEntity order by rand()").setMaxResults(4).list();
+    public List<PriceListEntity> randomPriceList() {
+        return sessionFactory.getCurrentSession().createQuery("from PriceListEntity order by random()").setMaxResults(4).list();
     }
 
     @SuppressWarnings("unchecked")
-    public List<PlywoodEntity> newArrivalsList() {
-        Criteria criteria = sessionFactory.getCurrentSession().createCriteria(PlywoodEntity.class);
-        criteria.addOrder(Order.desc("productId")).setMaxResults(4);
+    public List<PriceListEntity> newArrivalsList() {
+        Criteria criteria = sessionFactory.getCurrentSession().createCriteria(PriceListEntity.class);
+        criteria.addOrder(Order.desc("priceListPK.plywood.productId")).setMaxResults(4);
         return criteria.list();
     }
 }

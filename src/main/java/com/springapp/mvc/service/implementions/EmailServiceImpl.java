@@ -22,7 +22,7 @@ public class EmailServiceImpl implements EmailService {
     @Autowired
     private UserDAO userDAO;
 
-    private final String WEBSITE_EMAIL = "contact@hmccnc.com";
+    private final String WEBSITE_EMAIL = "contact@plywood24.com";
 
     @Transactional
     public void sendNewOrderEmailToAdmin(MachineOrder machineOrder) {

@@ -5,5 +5,5 @@ Disallow: /hmc/proposal
 Disallow: /hmc/proposalSingle
 Disallow: /hmc/compare
 
-Host: hmccnc.com
-Sitemap: http://hmccnc.com/sitemap.xml
+Host: plywood24.com
+Sitemap: http://plywood24.com/sitemap.xml

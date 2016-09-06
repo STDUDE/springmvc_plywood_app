@@ -53,14 +53,14 @@
         <div class="container">
             <nav>
                 <ul class="inline">
-                    <%@include file="insertions/shopByDepartment.jsp" %>
+                    <%@include file="insertions/shopByType.jsp" %>
                     <li class="breadcrumb-nav-holder">
                         <ul>
                             <li class="breadcrumb-item gray">
                                 <a href="/"><spring:message code="common.home"/></a>
                             </li>
                             <li class="breadcrumb-item gray">
-                                <a onclick="goToHmc()"><spring:message code="common.hmc"/></a>
+                                <a onclick="goToPlywood()"><spring:message code="common.plywood"/></a>
                             </li>
                             <li class="breadcrumb-item gray">
                                 <a onclick="window.history.back()">${machine.machineTypeEn} - ${machine.productId}</a>

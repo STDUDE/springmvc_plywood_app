@@ -6,11 +6,11 @@
                 <!-- ============================================================= CONTACT INFO ============================================================= -->
                 <div class="contact-info">
                     <div class="footer-logo">
-                        <img alt="vmc_and_hmc" src="../../resources/images/vmc_and_hmc.svg" width="233" height="54"/>
+                        <img alt="plywood24" src="../../resources/images/plywood24.svg" width="300" height="54"/>
                     </div>
                     <!-- /.footer-logo -->
 
-                    <p class="regular-bold"><spring:message code="common.vmcHmc"/></p>
+                    <p class="regular-bold"><spring:message code="common.plywood"/></p>
 
                     <p>
                         <spring:message code="common.usa"/>: +1 203 556-50-69 <br>
@@ -24,9 +24,9 @@
                     <div class="social-icons">
                         <h3><spring:message code="footer.getInTouch"/></h3>
                         <ul>
-                            <li><a href="https://www.facebook.com/vmccnc/" target="_blank" class="fa fa-facebook"></a></li>
-                            <li><a href="https://www.youtube.com/vmccnc" target="_blank"></a>YouTube</li>
-                            <li><a href="https://twitter.com/vmccnc" target="_blank" class="fa fa-twitter"></a></li>
+                            <li><a href="https://www.facebook.com/plywood24/" target="_blank" class="fa fa-facebook"></a></li>
+                            <li><a href="https://www.youtube.com/plywood24" target="_blank"></a>YouTube</li>
+                            <li><a href="https://twitter.com/plywood24" target="_blank" class="fa fa-twitter"></a></li>
                         </ul>
                     </div>
                     <!-- /.social-icons -->
@@ -43,7 +43,7 @@
                             <li><a onclick="goToCart()"><spring:message code="footer.myCart"/></a></li>
                             <li><a onclick="goToWishList()"><spring:message code="footer.myWishList"/></a></li>
                             <li><a onclick="goToComparison()"><spring:message code="footer.myComparison"/></a></li>
-                            <li><a href="/hmc/trackYourOrder"><spring:message code="footer.orderTracking"/></a></li>
+                            <li><a href="/plywood/trackYourOrder"><spring:message code="footer.orderTracking"/></a></li>
                         </ul>
                     </div>
                     <!-- /.widget -->
@@ -54,7 +54,7 @@
                     <div class="widget">
                         <h3><spring:message code="footer.information"/></h3>
                         <ul>
-                            <li><a href="http://vmccnc.com/contact"><spring:message code="footer.contactUs"/></a></li>
+                            <li><a href="http://plywood24.com/contact"><spring:message code="footer.contactUs"/></a></li>
                             <li><a href="/siteMap"><spring:message code="footer.siteMap"/></a></li>
                         </ul>
                     </div>
@@ -70,7 +70,7 @@
         <div class="container">
             <div class="col-xs-12 col-sm-6 no-margin">
                 <div class="copyright">
-                    &copy; <a onclick="goToHmc()">Plywood24</a> - <spring:message code="footer.allRightsReserved"/>
+                    &copy; <a onclick="goToPlywood()">Plywood24</a> - <spring:message code="footer.allRightsReserved"/>
                 </div>
                 <!-- /.copyright -->
             </div>

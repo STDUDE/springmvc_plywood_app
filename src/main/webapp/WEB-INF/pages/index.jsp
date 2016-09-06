@@ -14,7 +14,7 @@
     <meta name="keywords" content='<spring:message code="common.keywords"/>'>
     <meta name="description" content='<spring:message code="common.description"/>'>
 
-    <title><spring:message code="common.hmcTitle"/></title>
+    <title><spring:message code="common.plywoodTitle"/></title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="resources/css/bootstrap.min.css" type="text/css" media="screen"/>
@@ -57,153 +57,8 @@
 <body>
 
 <div class="wrapper">
-<%@include file="common/insertions/navigation.jsp" %>
 <!-- ================================================ HEADER ======================================================= -->
-<header>
-    <div class="container no-padding">
-
-        <div class="col-xs-12 col-sm-12 col-md-3 logo-holder">
-            <!-- ============================================================= LOGO ============================================================= -->
-            <div class="logo">
-                <a href="/">
-                    <img alt="hmccnc.com" src="../resources/images/vmc_and_hmc.svg" width="233" height="54"/>
-                </a>
-            </div>
-            <!-- /.logo -->
-            <!-- ============================================================= LOGO : END ============================================================= -->
-        </div>
-        <!-- /.logo-holder -->
-
-        <div class="col-xs-12 col-sm-12 col-md-5 top-search-holder no-margin">
-            <div class="contact-row">
-                <div class="phone inline">
-                    <i class="fa fa-phone"></i> <spring:message code="common.usa"/>: <span class="le-color">+1 203 556-50-69</span><br>
-                </div>
-                <br>
-
-                <div class="contact inline">
-                    <i class="fa fa-envelope"></i> contact@<span class="le-color">hmccnc.com</span>
-                </div>
-            </div>
-            <!-- /.contact-row -->
-        </div>
-        <!-- /.top-search-holder -->
-
-        <div class="col-xs-12 col-sm-12 col-md-4 top-cart-row no-margin">
-            <div class="top-cart-row-container">
-                <div class="wishlist-compare-holder">
-                    <div class="wishlist">
-                        <a onclick="goToWishList()"><i class="fa fa-heart"></i> <spring:message code="common.wishList"/> <span
-                                id="wishList-value"></span> </a>
-                    </div>
-                    <div class="compare">
-                        <a onclick="goToComparison()"><i class="fa fa-exchange"></i> <spring:message
-                                code="common.comparison"/> <span
-                                id="compare-value"></span> </a>
-                    </div>
-                </div>
-
-                <!-- ============================================================= SHOPPING CART DROPDOWN ============================================================= -->
-                <div class="top-cart-holder dropdown animate-dropdown">
-
-                    <div class="basket">
-
-                        <a class="dropdown-toggle" data-toggle="dropdown">
-                            <div class="basket-item-count">
-                                <span class="count" id="cart-count"></span>
-                                <img src="resources/images/icon-cart.png"/>
-                            </div>
-
-                            <div class="total-price-basket">
-                                <span class="lbl"><spring:message code="common.cart"/></span>
-                                <span class="total-price"
-                                      <c:if test='${pageContext.request.userPrincipal.name == null}'>style="display: none"</c:if>>
-                                    <span class="sign">$</span><span class="value cart-total">0</span>
-                                </span>
-                            </div>
-                        </a>
-
-                        <ul class="dropdown-menu">
-                            <li id="li1" class="hidden">
-                                <div class="basket-item">
-                                    <div class="row">
-                                        <div class="col-xs-4 col-sm-4 no-margin text-center">
-                                            <div class="thumb">
-                                                <img width="75" height="75" src="resources/images/blank.gif">
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-8 col-sm-8 no-margin">
-                                            <div class="title"></div>
-                                            <div class="price"
-                                                 <c:if test="${pageContext.request.userPrincipal.name == null}">style="display: none"</c:if>></div>
-                                        </div>
-                                    </div>
-                                    <a class="close-btn" onclick="window.location.reload(true);"></a>
-                                </div>
-                            </li>
-                            <li id="li2" class="hidden">
-                                <div class="basket-item">
-                                    <div class="row">
-                                        <div class="col-xs-4 col-sm-4 no-margin text-center">
-                                            <div class="thumb">
-                                                <img width="75" height="75" src="resources/images/blank.gif">
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-8 col-sm-8 no-margin">
-                                            <div class="title"></div>
-                                            <div class="price"
-                                                 <c:if test="${pageContext.request.userPrincipal.name == null}">style="display: none"</c:if>></div>
-                                        </div>
-                                    </div>
-                                    <a class="close-btn" onclick="window.location.reload(true);"></a>
-                                </div>
-                            </li>
-                            <li id="li3" class="hidden">
-                                <div class="basket-item">
-                                    <div class="row">
-                                        <div class="col-xs-4 col-sm-4 no-margin text-center">
-                                            <div class="thumb">
-                                                <img width="75" height="75" src="resources/images/blank.gif">
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-8 col-sm-8 no-margin">
-                                            <div class="title"></div>
-                                            <div class="price"
-                                                 <c:if test="${pageContext.request.userPrincipal.name == null}">style="display: none"</c:if>></div>
-                                        </div>
-                                    </div>
-                                    <a class="close-btn" onclick="window.location.reload(true);"></a>
-                                </div>
-                            </li>
-                            <li class="checkout">
-                                <div class="basket-item">
-                                    <div class="row">
-                                        <div class="col-xs-12 col-sm-6">
-                                            <a class="le-button" onclick="goToCart()"><spring:message
-                                                    code="common.viewCart"/></a>
-                                        </div>
-                                        <div class="col-xs-12 col-sm-6">
-                                            <a onclick="goToCheckout()" class="le-button"><spring:message
-                                                    code="common.checkout"/></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--/.basket-->
-                </div>
-
-                <!-- /.top-cart-holder -->
-            </div>
-            <!-- /.top-cart-row-container -->
-            <!-- ============================================================= SHOPPING CART DROPDOWN : END ============================================================= -->
-        </div>
-        <!-- /.top-cart-row -->
-
-    </div>
-    <!-- /.container -->
-</header>
+    <%@include file="common/insertions/header.jsp" %>
 <!-- =============================================== HEADER : END ================================================ -->
 
 <div id="top-banner-and-menu">
@@ -217,13 +72,12 @@
                 <nav class="yamm megamenu-horizontal" role="navigation">
                     <ul class="nav">
                         <li class="dropdown menu-item">
-                            <a onclick="goToHmc()">
+                            <a onclick="goToPlywood()">
                                 <h1 class="h2 no-margin" style="font-size: 15px; line-height: 26px; letter-spacing: normal; text-transform: none;">
-                                    <spring:message code="common.hmc"/>
+                                    <spring:message code="common.plywood"/>
                                 </h1>
                             </a>
-                            <a href="http://vmccnc.com/vmc" target="_blank"><spring:message code="common.vmc"/></a>
-                            <a href="/lathe" target="_blank"><spring:message code="common.lathe"/></a>
+                            <a href="http://plywood24.com/plywood" target="_blank"><spring:message code="common.plywoodTitle"/></a>
                         </li>
                     </ul>
                 </nav>
@@ -232,10 +86,9 @@
 
         <div class="col-xs-12 col-sm-8 col-md-9 homebanner-holder">
             <div id="hero">
-                <div class="video-container">
-                    <iframe width="853" height="480" src="https://www.youtube.com/embed/yzZXBudVT_Y" frameborder="0"
-                            allowfullscreen></iframe>
-                </div>
+                <p>
+                    Some info
+                </p>
             </div>
         </div>
     </div>
@@ -243,14 +96,14 @@
 <!-- /.container -->
 
 <!-- /.Featured machines and new arrivals -->
-<c:if test="${!empty randomMachineList}">
+<c:if test="${!empty priceList}">
     <div id="products-tab" class="wow fadeInUp">
         <div class="container">
             <div class="tab-holder">
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs">
                     <li class="active"><a href="#featured" data-toggle="tab"><spring:message
-                            code="common.featuredMachines"/></a></li>
+                            code="common.featuredPlywood"/></a></li>
                     <li><a href="#new-arrivals" data-toggle="tab"><spring:message code="common.newArrivals"/></a></li>
                 </ul>
 
@@ -259,65 +112,65 @@
 
                     <div class="tab-pane active" id="featured">
                         <div class="product-grid-holder">
-                            <c:forEach items="${randomMachineList}" var="machine">
-                                <div class="col-sm-4 col-md-3  no-margin product-item-holder hover">
+                            <c:forEach items="${priceList}" var="priceListItem" varStatus="loop">
+                                <c:set var="plywood" value="${priceListItem.priceListPK.plywood}"/>
+                                <c:set var="length" value="${priceListItem.priceListPK.length}" />
+                                <c:set var="width" value="${priceListItem.priceListPK.width}" />
+                                <c:set var="thickness" value="${priceListItem.priceListPK.thickness}" />
+                                <div class="item${loop.index + 1} col-xs-12 col-sm-4 no-margin product-item-holder hover hidden">
                                     <div class="product-item">
                                         <div class="image">
-                                            <img alt="${machine.machineTypeEn} - ${machine.productId}"
+                                            <img alt="Plywood - ${plywood.productId}"
                                                  src="../resources/images/blank.gif"
-                                                 data-echo="../resources/images/products/${machine.photo1}"/>
-                                            <span class="photo${machine.productId} hidden">${machine.photo1}</span>
+                                                 data-echo="../resources/images/products/${plywood.photo1}"/>
+                                            <span class="photo${plywood.productId} hidden">${plywood.photo1}</span>
                                         </div>
                                         <div class="body">
                                             <div class="title">
-                                                <a href="/hmc${machine.productId}">
-                                                        ${machine.machineTypeEn}<br>
-                                                    <span class="model${machine.productId}">${machine.model}</span>
+                                                <a href="/plywood/${plywood.productId}/${length}/${width}/${thickness}">
+                                                    PLYWOOD ${plywood.brand}<br><span
+                                                        class="size${plywood.productId}">${length}X${width}X${thickness}</span>
                                                 </a>
                                             </div>
                                             <div class="brand">
-                                                <span class="brand${machine.productId}">${machine.brand}</span>, ${machine.productionYear}, ${machine.producingCountryEn}<br>
-                                                <spring:message code="machine.machineCondition"/>: ${machine.machineConditionEn}<br>
-                                                <spring:message code="machine.location"/>: ${machine.machineLocationEn}<br>
+                                                                <span class="brand${plywood.productId}"><spring:message
+                                                                        code="plywood.brand"/>: ${plywood.brand}</span>
+                                                                <span class="type${plywood.productId}"><spring:message
+                                                                        code="plywood.type"/>: ${plywood.brand}</span>
+                                                                <span class="weight${plywood.productId}"><spring:message
+                                                                        code="plywood.weight"/>: ${priceListItem.weight}</span>
                                             </div>
                                         </div>
                                         <div class="prices"
                                              <c:if test="${pageContext.request.userPrincipal.name == null}">style="display: none"</c:if>>
-                                            <div class="price-current pull-right">
-                                                $<span class="price${machine.productId}">${machine.price}</span>
+                                            <div class="price-current pull-right">$<span
+                                                    class="price${plywood.productId}">${priceListItem.price}</span>
                                             </div>
                                             <br>
                                         </div>
-
                                         <div class="hover-area">
                                             <div class="add-cart-button">
-                                                <a class="cart${machine.productId} le-button"
-                                                   onclick="addToCart('${machine.productId}')">
-                                                    <spring:message code="common.addToCart"/>
-                                                </a>
-                                                <a class="cart${machine.productId} le-button in-cart hidden"
-                                                   onclick="removeFromCart('${machine.productId}')">
-                                                    <spring:message code="common.inCart"/>
-                                                </a>
+                                                <a class="cart${plywood.productId} le-button"
+                                                   onclick="addToCart('${plywood.productId}')"><spring:message
+                                                        code="common.addToCart"/></a>
+                                                <a class="cart${plywood.productId} le-button in-cart hidden"
+                                                   onclick="removeFromCart('${plywood.productId}')"><spring:message
+                                                        code="common.inCart"/></a>
                                             </div>
                                             <div class="wish-compare">
-                            <span class="wishList${machine.productId} btn-add-to-wishlist"
-                                  onclick="addToWishList('${machine.productId}')">
-                                <spring:message code="common.addToWishList"/>
-                            </span>
-                            <span class="wishList${machine.productId} btn-add-to-wishlist btn-green hidden"
-                                  onclick="removeFromWishList('${machine.productId}')">
-                                <spring:message code="common.removeFromWishList"/>
-                            </span>
+                                    <span class="wishList${plywood.productId} btn-add-to-wishlist"
+                                          onclick="addToWishList('${plywood.productId}')"><spring:message
+                                            code="common.addToWishList"/></span>
+                                    <span class="wishList${plywood.productId} btn-add-to-wishlist btn-green hidden"
+                                          onclick="removeFromWishList('${plywood.productId}')"><spring:message
+                                            code="common.removeFromWishList"/></span>
                                                 <br>
-                            <span class="compare${machine.productId} btn-add-to-compare"
-                                  onclick="addToComparison('${machine.productId}')">
-                                <spring:message code="common.addToComparison"/>
-                            </span>
-                            <span class="compare${machine.productId} btn-add-to-compare btn-green hidden"
-                                  onclick="removeFromComparison('${machine.productId}')">
-                                <spring:message code="common.removeFromComparison"/>
-                            </span>
+                                    <span class="compare${plywood.productId} btn-add-to-compare"
+                                          onclick="addToComparison('${plywood.productId}')"><spring:message
+                                            code="common.addToComparison"/></span>
+                                    <span class="compare${plywood.productId} btn-add-to-compare btn-green hidden"
+                                          onclick="removeFromComparison('${plywood.productId}')"><spring:message
+                                            code="common.removeFromComparison"/></span>
                                             </div>
                                         </div>
                                     </div>
@@ -328,65 +181,65 @@
 
                     <div class="tab-pane" id="new-arrivals">
                         <div class="product-grid-holder">
-                            <c:forEach items="${newArrivalsList}" var="machine">
-                                <div class="col-sm-4 col-md-3  no-margin product-item-holder hover">
+                            <c:forEach items="${arrivalsList}" var="priceListItem" varStatus="loop">
+                                <c:set var="plywood" value="${priceListItem.priceListPK.plywood}"/>
+                                <c:set var="length" value="${priceListItem.priceListPK.length}" />
+                                <c:set var="width" value="${priceListItem.priceListPK.width}" />
+                                <c:set var="thickness" value="${priceListItem.priceListPK.thickness}" />
+                                <div class="item${loop.index + 1} col-xs-12 col-sm-4 no-margin product-item-holder hover hidden">
                                     <div class="product-item">
                                         <div class="image">
-                                            <img alt="${machine.machineTypeEn} - ${machine.productId}"
+                                            <img alt="Plywood - ${plywood.productId}"
                                                  src="../resources/images/blank.gif"
-                                                 data-echo="../resources/images/products/${machine.photo1}"/>
-                                            <span class="photo${machine.productId} hidden">${machine.photo1}</span>
+                                                 data-echo="../resources/images/products/${plywood.photo1}"/>
+                                            <span class="photo${plywood.productId} hidden">${plywood.photo1}</span>
                                         </div>
                                         <div class="body">
                                             <div class="title">
-                                                <a href="/hmc${machine.productId}">
-                                                        ${machine.machineTypeEn}<br>
-                                                    <span class="model${machine.productId}">${machine.model}</span>
+                                                <a href="/plywood/${plywood.productId}/${length}/${width}/${thickness}">
+                                                    PLYWOOD ${plywood.brand}<br><span
+                                                        class="size${plywood.productId}">${length}X${width}X${thickness}</span>
                                                 </a>
                                             </div>
                                             <div class="brand">
-                                                <span class="brand${machine.productId}">${machine.brand}</span>, ${machine.productionYear}, ${machine.producingCountryEn}<br>
-                                                <spring:message code="machine.machineCondition"/>: ${machine.machineConditionEn}<br>
-                                                <spring:message code="machine.location"/>: ${machine.machineLocationEn}<br>
+                                                                <span class="brand${plywood.productId}"><spring:message
+                                                                        code="plywood.brand"/>: ${plywood.brand}</span>
+                                                                <span class="type${plywood.productId}"><spring:message
+                                                                        code="plywood.type"/>: ${plywood.brand}</span>
+                                                                <span class="weight${plywood.productId}"><spring:message
+                                                                        code="plywood.weight"/>: ${priceListItem.weight}</span>
                                             </div>
                                         </div>
                                         <div class="prices"
                                              <c:if test="${pageContext.request.userPrincipal.name == null}">style="display: none"</c:if>>
-                                            <div class="price-current pull-right">
-                                                $<span class="price${machine.productId}">${machine.price}</span>
+                                            <div class="price-current pull-right">$<span
+                                                    class="price${plywood.productId}">${priceListItem.price}</span>
                                             </div>
                                             <br>
                                         </div>
-
                                         <div class="hover-area">
                                             <div class="add-cart-button">
-                                                <a class="cart${machine.productId} le-button"
-                                                   onclick="addToCart('${machine.productId}')">
-                                                    <spring:message code="common.addToCart"/>
-                                                </a>
-                                                <a class="cart${machine.productId} le-button in-cart hidden"
-                                                   onclick="removeFromCart('${machine.productId}')">
-                                                    <spring:message code="common.inCart"/>
-                                                </a>
+                                                <a class="cart${plywood.productId} le-button"
+                                                   onclick="addToCart('${plywood.productId}')"><spring:message
+                                                        code="common.addToCart"/></a>
+                                                <a class="cart${plywood.productId} le-button in-cart hidden"
+                                                   onclick="removeFromCart('${plywood.productId}')"><spring:message
+                                                        code="common.inCart"/></a>
                                             </div>
                                             <div class="wish-compare">
-                            <span class="wishList${machine.productId} btn-add-to-wishlist"
-                                  onclick="addToWishList('${machine.productId}')">
-                                <spring:message code="common.addToWishList"/>
-                            </span>
-                            <span class="wishList${machine.productId} btn-add-to-wishlist btn-green hidden"
-                                  onclick="removeFromWishList('${machine.productId}')">
-                                <spring:message code="common.removeFromWishList"/>
-                            </span>
+                                    <span class="wishList${plywood.productId} btn-add-to-wishlist"
+                                          onclick="addToWishList('${plywood.productId}')"><spring:message
+                                            code="common.addToWishList"/></span>
+                                    <span class="wishList${plywood.productId} btn-add-to-wishlist btn-green hidden"
+                                          onclick="removeFromWishList('${plywood.productId}')"><spring:message
+                                            code="common.removeFromWishList"/></span>
                                                 <br>
-                            <span class="compare${machine.productId} btn-add-to-compare"
-                                  onclick="addToComparison('${machine.productId}')">
-                                <spring:message code="common.addToComparison"/>
-                            </span>
-                            <span class="compare${machine.productId} btn-add-to-compare btn-green hidden"
-                                  onclick="removeFromComparison('${machine.productId}')">
-                                <spring:message code="common.removeFromComparison"/>
-                            </span>
+                                    <span class="compare${plywood.productId} btn-add-to-compare"
+                                          onclick="addToComparison('${plywood.productId}')"><spring:message
+                                            code="common.addToComparison"/></span>
+                                    <span class="compare${plywood.productId} btn-add-to-compare btn-green hidden"
+                                          onclick="removeFromComparison('${plywood.productId}')"><spring:message
+                                            code="common.removeFromComparison"/></span>
                                             </div>
                                         </div>
                                     </div>
